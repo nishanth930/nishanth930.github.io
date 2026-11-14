@@ -13,11 +13,10 @@ import type {
 
 export const profile: Profile = {
   name: 'Nishanth Parthiban',
-  eyebrow: 'Principal Engineer · PepsiCo',
-  headline:
-    'Designing enterprise platforms that scale — from cloud foundations to intelligent automation.',
+  eyebrow: 'AI Product Leader · Principal Engineer at PepsiCo',
+  headline: 'I build AI products that move real business numbers.',
   lede:
-    "I'm Nishanth, an Enterprise & Cloud Architect and Delivery Manager with 18+ years in IT. I help organisations modernise on Azure and AWS, build Centres of Excellence, and turn automation and AI into measurable business value.",
+    '18+ years taking enterprise AI from idea to production, from intelligent document processing at PepsiCo to ML-driven bot support with Radium.ai. Now focused on product-led AI: owning the problem, the roadmap and the metric, backed by an MBA in AI in Business (BITS Pilani, in progress).',
   location: 'Bengaluru, India',
   email: 'nishanth930@gmail.com',
   linkedin: {
@@ -170,8 +169,12 @@ export const projects: Project[] = [
 
 export const skills: SkillGroup[] = [
   {
+    group: 'Product & AI',
+    items: ['Product discovery', 'Roadmaps & prioritisation', 'Outcome metrics & ROI cases', 'Stakeholder alignment', 'Intelligent document processing', 'OCR', 'ML-powered products'],
+  },
+  {
     group: 'Architecture & leadership',
-    items: ['Strategy & roadmaps', 'RFPs & proposals', 'TOGAF', 'Systems integration', 'Delivery risk & recovery', 'Programme management', 'Team leadership'],
+    items: ['Technology strategy', 'RFPs & proposals', 'TOGAF', 'Systems integration', 'Delivery risk & recovery', 'Programme management', 'Team leadership'],
   },
   {
     group: 'Cloud',
